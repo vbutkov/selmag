@@ -2,23 +2,15 @@ package ru.selm.catalog.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.context.MessageSource;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ProblemDetail;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 import ru.selm.catalog.controller.payload.NewProductPayload;
 import ru.selm.catalog.entity.Product;
 import ru.selm.catalog.service.ProductService;
 
-import java.awt.*;
-import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 
 @RestController
@@ -29,8 +21,8 @@ public class ProductsRestController {
     private final ProductService productService;
 
     @GetMapping
-    public List<Product> findProduct() {
-        return this.productService.findAllProducts();
+    public Iterable<Product> findProduct(@RequestParam(value = "filter", required = false) String filter) {
+        return this.productService.findAllProducts(filter);
     }
 
     @PostMapping

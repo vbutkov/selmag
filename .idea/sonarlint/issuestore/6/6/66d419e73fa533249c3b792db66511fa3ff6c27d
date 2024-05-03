@@ -1,17 +1,3 @@
 
 A
-java:S1452%"&Remove usage of generic wildcard type.( σ_8ΈΰΤΫρ1
-h
-java:S1128"FRemove this unused import 'org.springframework.context.MessageSource'.(©Ξ„λωÿÿÿÿ8ϊτωρ1
-b
-java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(ν¤ϊÿÿÿÿ8ϊτωρ1
-a
-java:S1128"?Remove this unused import 'org.springframework.http.MediaType'.(ϊέ―ώÿÿÿÿ8ϊτωρ1
-`
-java:S1128"CRemove this unused import 'org.springframework.http.ProblemDetail'.(ΜÿΝ—8ϋτωρ1
-i
-java:S1128"GRemove this unused import 'org.springframework.validation.ObjectError'.(ύ£Ώ®ÿÿÿÿÿ8ϋτωρ1
-B
-java:S1128"%Remove this unused import 'java.awt'.(ο΄µ©8ϋτωρ1
-O
-java:S1128"-Remove this unused import 'java.util.Locale'.(επΧ±ϋÿÿÿÿ8ϋτωρ1
+java:S1452"&Remove usage of generic wildcard type.( σ_8β¨Πχς1

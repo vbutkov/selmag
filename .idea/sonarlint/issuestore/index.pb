@@ -14,8 +14,6 @@ q
 Amanager-app/src/main/java/ru/selm/manager/ManagerApplication.java,4/0/40d76c1d58fda9485a86903e3af11a05c36b409a
 |
 Lcatalog-service/src/main/java/ru/selm/catalog/CatalogServiceApplication.java,8/6/862c8adc4ecd6692d255023c8de00cb366a1710e
-‡
-Wcatalog-service/src/main/java/ru/selm/catalog/repository/InMemoryProductRepository.java,f/e/fe825c79a393650ca2744591e7ed15ce655daee5
 
 Ocatalog-service/src/main/java/ru/selm/catalog/repository/ProductRepository.java,c/8/c81a12639cb002286e6dc6058af5df4630396ce0
 y
@@ -48,3 +46,9 @@ q
 Amanager-app/src/main/java/ru/selm/manager/config/ClientBeans.java,e/d/ed341315c756e46841423329e5dfbcaff1e910c5
 ƒ
 Smanager-app/src/main/java/ru/selm/manager/controller/payload/NewProductPayload.java,3/9/39fbe155e879de045697fed55e484aa81e4ef876
+†
+Vcatalog-service/src/main/java/ru/selm/catalog/repository/old/ProductRepositoryOld.java,5/a/5ac70891313da047069d8b88edbaacf7ef8a023d
+Ž
+^catalog-service/src/main/java/ru/selm/catalog/repository/old/InMemoryProductRepositoryOld.java,7/5/754964de0c472581dbb9608f1a3360b1842d1445
+w
+Gcatalog-service/src/main/java/ru/selm/catalog/config/SecurityBeans.java,9/2/9234dd3ba70b9a67046ca86957a71e4fffa1f812

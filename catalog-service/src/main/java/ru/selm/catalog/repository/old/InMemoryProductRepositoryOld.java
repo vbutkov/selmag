@@ -1,4 +1,4 @@
-package ru.selm.catalog.repository;
+package ru.selm.catalog.repository.old;
 
 import org.springframework.stereotype.Repository;
 import ru.selm.catalog.entity.Product;
@@ -7,11 +7,11 @@ import java.util.*;
 import java.util.stream.IntStream;
 
 @Repository
-public class InMemoryProductRepository implements ProductRepository {
+public class InMemoryProductRepositoryOld implements ProductRepositoryOld {
 
     private final List<Product> products = Collections.synchronizedList(new LinkedList<>());
 
-    public InMemoryProductRepository() {
+    public InMemoryProductRepositoryOld() {
         IntStream.range(1, 4)
                 .forEach(i -> this.products.add(
                         new Product(i,

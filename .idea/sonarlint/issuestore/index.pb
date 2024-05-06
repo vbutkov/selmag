@@ -52,3 +52,11 @@ Vcatalog-service/src/main/java/ru/selm/catalog/repository/old/ProductRepositoryO
 ^catalog-service/src/main/java/ru/selm/catalog/repository/old/InMemoryProductRepositoryOld.java,7/5/754964de0c472581dbb9608f1a3360b1842d1445
 w
 Gcatalog-service/src/main/java/ru/selm/catalog/config/SecurityBeans.java,9/2/9234dd3ba70b9a67046ca86957a71e4fffa1f812
+o
+?manager-app/src/main/java/ru/selm/manager/entity/Authority.java,d/8/d89e56f42c3d4b4574c92aa741c30559bb56cd4b
+k
+;manager-app/src/main/java/ru/selm/manager/entity/CUser.java,5/f/5f14d2b660c49fd14959f7ccf68a02f42024b752
+z
+Jmanager-app/src/main/java/ru/selm/manager/security/CUserDetailService.java,e/e/eeb54360c694edf948209e4ec060b6b801c7846b
+y
+Imanager-app/src/main/java/ru/selm/manager/repository/CUserRepository.java,f/0/f072e86ad5e67b7973828c2b26ca40a69e906186

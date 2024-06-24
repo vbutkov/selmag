@@ -1,6 +1,7 @@
 package ru.selm.manager.controller;
 
 import lombok.RequiredArgsConstructor;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -8,6 +9,9 @@ import ru.selm.manager.client.BadRequestException;
 import ru.selm.manager.client.ProductRestClient;
 import ru.selm.manager.controller.payload.NewProductPayload;
 import ru.selm.manager.entity.Product;
+
+import java.security.Principal;
+import java.util.logging.Logger;
 
 @Controller
 @RequiredArgsConstructor

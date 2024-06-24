@@ -60,3 +60,9 @@ z
 Jmanager-app/src/main/java/ru/selm/manager/security/CUserDetailService.java,e/e/eeb54360c694edf948209e4ec060b6b801c7846b
 y
 Imanager-app/src/main/java/ru/selm/manager/repository/CUserRepository.java,f/0/f072e86ad5e67b7973828c2b26ca40a69e906186
+s
+Cmanager-app/src/main/java/ru/selm/manager/config/SecurityBeans.java,4/a/4a0d6e6b9b22f1a935c1629456f410cab0a685a8
+…
+Umanager-app/src/main/java/ru/selm/manager/security/OAuthClientRequestInterceptor.java,b/e/be4b82f9ec1b7393e012ff78da1542a0e2e70ee1
+‰
+Ymanager-app/src/main/java/ru/selm/manager/security/OAuthClientHttpRequestInterceptor.java,7/b/7b9cead9dc83de63a462fdafbe5bc004902152bf

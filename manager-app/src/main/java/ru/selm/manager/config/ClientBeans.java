@@ -14,7 +14,7 @@ import ru.selm.manager.security.OAuthClientHttpRequestInterceptor;
 public class ClientBeans {
     @Bean
     public RestClentProductRestClient productRestClient(
-            @Value("${selmag.services.catalog.uri:${selmag.services.catalog.uri:http://localhost:8081}}") String catalogBaseUri,
+            @Value("${selmag.services.catalog.uri:http://localhost:8081}") String catalogBaseUri,
             ClientRegistrationRepository clientRegistrationRepository,
             OAuth2AuthorizedClientRepository authorizedClientRepository,
             @Value("${selmag.services.catalog.registration-id:keycloak}") String registrationId) {

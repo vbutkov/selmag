@@ -23,6 +23,8 @@ public class SecurityBeans {
                                 .requestMatchers(HttpMethod.DELETE, "/catalog-api/products/{productId:\\d}")
                                 .hasAuthority("SCOPE_edit_catalog")
                                 .requestMatchers(HttpMethod.GET)
+                                .hasAuthority("SCOPE_edit_catalog")
+                                .requestMatchers(HttpMethod.POST)
                                 .hasAuthority("SCOPE_view_catalog")
                                 .anyRequest().denyAll())
                 .oauth2ResourceServer(oauth2ResourceServer -> oauth2ResourceServer.jwt(

@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 @RequestMapping("catalog/products")
 public class ProductsController {
 
+
     private final ProductRestClient productRestClient;
 
     @GetMapping("list")
